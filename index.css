@@ -3,9 +3,10 @@
 
 h1 {
   font-family: 'Gaegu', cursive;
-  margin: 20px 0;
+  margin: 60px 0;
   /*=======  Update the font size to 60px and center the text */
   font-size: 10px;
+  text-align: center;
 }
 
 h2, h3, h4, h5, h6 {
@@ -13,17 +14,17 @@ h2, h3, h4, h5, h6 {
   margin-bottom: 0;
   padding: 0 10px;
   /*=======  Update the font size to 30px */
-  font-size: 10px;
+  font-size: 30px;
 }
 
-/*======= Create a selector for ALL p tags in the site to have the following styles:
+/*======= Create a selector for ALL p tags in the site to have the following styles:*/
 
-font-size: 16px;
-font-family: roboto;
-padding: 10px;
-line-height: 1.4;
-
-*/
+p {
+  font-size: 16px;
+  font-family: roboto;
+  padding: 10px;
+  line-height: 1.4;
+}
 
 
 /*======= Create a selector for ALL images in the site to have the following styles: 
